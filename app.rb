@@ -4,6 +4,7 @@ class Application < Sinatra::Base
     erb :index
   end
 
+  # Route to respond to the form submission
   post '/greet' do
     erb :greet
   end

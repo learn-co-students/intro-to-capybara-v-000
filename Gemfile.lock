@@ -14,7 +14,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  rack
+  rack (~> 1.5)
   sinatra
 
 BUNDLED WITH

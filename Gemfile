@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-ruby '>=2.3.0'
-
-gem 'rack'
+ruby '~> 2.2'
+gem 'rack', '>=1.5'
 gem 'sinatra'

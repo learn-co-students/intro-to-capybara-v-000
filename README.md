@@ -19,9 +19,9 @@ There are three basic levels of testing that correspond to the different levels 
 
 ![Web Application Stack and Tests](https://dl.dropboxusercontent.com/s/k2ypcn86btb6ajo/2015-09-29%20at%204.14%20PM.png)
 
-**Database:** Databases persist or save data from our application. 
+**Database:** Databases persist or save data from our application.
 
-**Models:** Models provide an object-oriented abstraction or metaphor for the data in our application. Our models do the job of interacting with the database for us. Our model can talk to the database by asking for certain data and using that data to create a new instance of our class. We can then interact with that data by using the methods and properties of the instance of that class. 
+**Models:** Models provide an object-oriented abstraction or metaphor for the data in our application. Our models do the job of interacting with the database for us. Our model can talk to the database by asking for certain data and using that data to create a new instance of our class. We can then interact with that data by using the methods and properties of the instance of that class.
 
 **Controllers:** Controllers provide the main interface and application logic. They deal with things like: "What data should I show a user in response to certain input from that user" or "What HTML should be sent to the user when they visit the /about page?". In large scale MVC applications, controllers are represented by classes, but really, lots of `bin` files could be considered controllers.
 
@@ -43,7 +43,7 @@ Let's take a look at how it all fits together. We'll use an example of a social 
 
 ### Unit Tests
 
-Unit tests test the models in our application and how they interact with our database. 
+Unit tests test the models in our application and how they interact with our database.
 
 ### Controller Tests
 

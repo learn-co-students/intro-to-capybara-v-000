@@ -1,4 +1,12 @@
 class Application < Sinatra::Base
-  # write your code here!
-end
+  # Old route from previous tests
+  get '/' do
+    erb :index
+  end
 
+  # New route to respond to the form submission
+  post '/greet' do
+    erb :greet
+  end
+end
+#test comment to submit

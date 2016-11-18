@@ -14,7 +14,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  rack
+  rack (< 2.0)
   sinatra
 
 RUBY VERSION

@@ -1,0 +1,34 @@
+current directory: /home/chenxi/fi/intro-to-capybara-v-000/vendor/bundle/ruby/2.3.0/gems/oj-2.17.5/ext/oj
+/usr/bin/ruby2.3 -r ./siteconf20161121-24385-dyqkae.rb extconf.rb
+>>>>> Creating Makefile for ruby version 2.3.1 on x86_64-linux-gnu <<<<<
+creating Makefile
+
+current directory: /home/chenxi/fi/intro-to-capybara-v-000/vendor/bundle/ruby/2.3.0/gems/oj-2.17.5/ext/oj
+make "DESTDIR=" clean
+
+current directory: /home/chenxi/fi/intro-to-capybara-v-000/vendor/bundle/ruby/2.3.0/gems/oj-2.17.5/ext/oj
+make "DESTDIR="
+compiling cache8.c
+compiling circarray.c
+compiling compat.c
+compiling dump.c
+compiling err.c
+compiling fast.c
+compiling hash.c
+compiling hash_test.c
+compiling object.c
+compiling odd.c
+compiling oj.c
+compiling parse.c
+compiling reader.c
+compiling resolve.c
+compiling saj.c
+compiling scp.c
+compiling sparse.c
+compiling strict.c
+compiling val_stack.c
+linking shared-object oj/oj.so
+
+current directory: /home/chenxi/fi/intro-to-capybara-v-000/vendor/bundle/ruby/2.3.0/gems/oj-2.17.5/ext/oj
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 oj.so ./.gem.20161121-24385-wygftq/oj

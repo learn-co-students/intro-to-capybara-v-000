@@ -138,7 +138,6 @@ DEPENDENCIES
   learn-co
   rack (= 1.6.5)
   rspec
-
   shotgun
   sinatra
 

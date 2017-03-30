@@ -7,6 +7,13 @@ describe "GET '/' - Greeting Form" do
     expect(page.body).to include("Welcome!")
   end
 
+  # another test
+
+  it 'talks about what it can do' do
+    visit '/'
+    expect(page).to have_selector("h2")
+    expect(page.body).to include("If you tell me your name, I can say hi!")
+  end
   # New test
   it 'has a greeting form with a user_name field' do
     visit '/'
@@ -24,5 +31,14 @@ describe "POST '/greet' - User Greeting" do
     click_button "Submit"
 
     expect(page).to have_text("Hi Avi, nice to meet you!")
+  end
+
+  it 'greets the user personally based on their user_status in the form' do
+    visit '/'
+
+    fill_in(:user_status, :with =>"Not bad")
+    click_button "Submit"
+
+    expect(page.body).to include("Not bad? Me too.")
   end
 end

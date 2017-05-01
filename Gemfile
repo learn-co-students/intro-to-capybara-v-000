@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 ruby '>=2.3.0'
 
 gem 'rack', '1.6.5'

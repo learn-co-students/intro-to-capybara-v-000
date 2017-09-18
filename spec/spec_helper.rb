@@ -13,6 +13,8 @@ end
 # Define the application we're testing
 def app
   # Load the application defined in config.ru
+  # we explicitly tell Capybara that the app we're testing against
+    # is defined in config.ru
   Rack::Builder.parse_file('config.ru').first
 end
 

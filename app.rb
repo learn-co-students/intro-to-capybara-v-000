@@ -1,3 +1,4 @@
+require 'pry'
 class Application < Sinatra::Base
   # Write your code here!
 
@@ -5,7 +6,8 @@ class Application < Sinatra::Base
     erb :index
   end
 
-  get '/greet' do
+  post '/greet' do
     erb :greet
   end
+
 end

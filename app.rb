@@ -4,8 +4,8 @@ class Application < Sinatra::Base
     erb :index
   end
 
-  post '/' do
-    greet.erb
+  post '/greet' do
+    erb :greet
   end
 
 end

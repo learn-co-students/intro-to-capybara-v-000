@@ -1,1 +1,28 @@
-<%# Write your code here! %>
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Sinatra Practice</title>
+      <style>
+        body {text-align: center;color: #ffffff;background-color:#ffffff;background-image:url(https://wallpapercave.com/wp/wp1923355.jpg); background-repeat:repeat-y; background-position:top left; background-attachment:scroll; margin: 0;}
+        h1 {;font-size: 5em;text-shadow: 0 0 50px #4BC6E2;margin-bottom: 0;}
+        p {;font-family: Georgia, serif;font-size: 33px;font-style: italic;font-weight: normal;color: #ffffff;background-color: rgba(27, 23, 23, 0.92);padding: 18px;}
+        #sinatra {margin-bottom: .50em;}
+        form {display: inline-block;}
+        #form_field {margin: 10px;}
+        #form_label {font-size: 20px;}
+      </style>
+    </head>
+    <body>
+      <h1>Welcome!</h1>
+      <p id="sinatra">Sinatra Practice</p>
+      <!--form-->
+      <form action="/greet" method="POST">
+        <label id="form_label" for="user_name">Name:</label>
+       
+        <p id="form_field" ><input type="text" name="user_name" id="user_name" /></p>
+       
+        <input id="form_submit" type="submit" value="Submit"/>
+      </form>
+      <!--form-->
+    </body>
+</html>

@@ -3,8 +3,8 @@ require 'spec_helper'
 describe "GET '/' - Greeting Form" do
   # Code from previous example
   it 'welcomes the user' do
-    visit '/'
-    expect(page.body).to include("Welcome!")
+    visit '/' #The visit method navigates the test's browser to a specific URL. It is equivalent to a user typing a URL into their browser's location bar. The argument it accepts is a string for the URL you want to test. Since we want to test our '/' root URL, we say visit '/', and Capybara will load that page within our test.
+    expect(page.body).to include("Welcome!") #The page method in Capybara exposes the "session" or "browser" that is conceptually (and literally) being used during the test.
   end
 
   # New test

@@ -8,4 +8,6 @@ class Application < Sinatra::Base
     erb :greet
   end
 
+# =======
+# >>>>>>> 05344dc35af08d2b6e7502f4d54fc5c84b461126
 end

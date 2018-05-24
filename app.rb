@@ -1,4 +1,12 @@
-class Application < Sinatra::Base
-  # Write your code here!
+require 'sinatra'
+class App < Sinatra::Base
+ 
+  get '/' do
+    erb :index
+  end
+ 
+  get '/greet' do
+    erb :greet
+  end
 
 end

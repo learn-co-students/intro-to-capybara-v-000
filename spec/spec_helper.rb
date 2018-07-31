@@ -1,20 +1,17 @@
-# Load RSpec and Capybara
-require 'rspec'
-require 'capybara/rspec'
-require 'capybara/dsl'
+#require 'spec_helper'
 
-# Configure RSpec
-RSpec.configure do |config|
-  # Mixin the Capybara functionality into Rspec
-  config.include Capybara::DSL
-  config.order = 'default'
-end
+#describe "GET '/' - Greeting Form" do
+  # Code from previous example
+  #it 'welcomes the user' do
+#    visit '/'
+#    expect(page.body).to include("Welcome!")
+#  end
 
-# Define the application we're testing
-def app
-  # Load the application defined in config.ru
-  Rack::Builder.parse_file('config.ru').first
-end
+  # New test
+#  it 'has a greeting form with a user_name field' do
+#    visit '/'
 
-# Configure Capybara to test against the application above.
-Capybara.app = app
+  #  expect(page).to have_selector("form")
+  #  expect(page).to have_field(:user_name)
+#  end
+#

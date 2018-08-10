@@ -5,7 +5,6 @@ class Application < Sinatra::Base
   end
 
   post '/greet' do
-    @user = params[:user_name]
     erb :greet
   end
 

@@ -47,7 +47,7 @@ Unit tests test the models in our application and how they interact with our dat
 
 ### Controller Tests
 
-Controller tests test that the code responsible for delivering the appropriate data to a user is working properly. In a web app, a controller test is responsible for making sure that an HTTP request returns the expected HTTP response. Controller tests should test not HTML or forms but, rather, that the controller is behaving as expected.
+Controller tests test the code responsible for delivering the appropriate data to a user is working properly. In a web app, a controller test is responsible for making sure that an HTTP request returns the expected HTTP response. Controller tests should test not HTML or forms but, rather, that the controller is behaving as expected.
 
 ### Integration Tests
 

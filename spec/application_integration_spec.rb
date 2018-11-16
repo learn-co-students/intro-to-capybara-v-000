@@ -14,7 +14,8 @@ describe "GET '/' - Greeting Form" do
     expect(page).to have_selector("form")
     expect(page).to have_field(:user_name)
   end
-end
+end 
+
 
 describe "POST '/greet' - User Greeting" do
   it 'greets the user personally based on their user_name in the form' do

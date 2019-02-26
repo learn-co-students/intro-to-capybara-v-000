@@ -1,9 +1,8 @@
 class Application < Sinatra::Base
-  Write your code here!
+  #Write your code here!
   get '/' do
     erb :index
   end
-
 
   # This is the new route to respond to the form submission
   post '/greet' do

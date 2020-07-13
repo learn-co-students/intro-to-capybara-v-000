@@ -3,8 +3,10 @@ require 'spec_helper'
 describe "GET '/' - Greeting Form" do
   # Code from previous example
   it 'welcomes the user' do
-    visit '/'
-    expect(page.body).to include("Welcome!")
+    visit '/' #navigates the test's browser to a specific URL. '/' is the root
+    expect(page.body).to include("Welcome!") #'page' exposes the session or browser (representation) used during the test
+    #'page' responds to a lot of user methods eg 'click-link', 'fill_in', 'body'
+    #'page.body' will dump all current page HTML as string
   end
 
   # New test

@@ -10,8 +10,8 @@ describe "GET '/' - Greeting Form" do
   # New test
   it 'has a greeting form with a user_name field' do
     visit '/'
-
-    expect(page).to have_selector("form")
+    #Capybara responds to methods that are intimately related to HTML and Document Object Model
+    expect(page).to have_selector("form") #have_selector: Capybara added it to RSpec
     expect(page).to have_field(:user_name)
   end
 end

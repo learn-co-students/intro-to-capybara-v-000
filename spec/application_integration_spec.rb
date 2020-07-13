@@ -17,7 +17,8 @@ describe "GET '/' - Greeting Form" do
 end
 
 describe "POST '/greet' - User Greeting" do
-  it 'greets the user personally based on their user_name in the form' do
+  it 'greets the user personally based on their user_name
+  in the form' do
     visit '/'
 
     fill_in(:user_name, :with => "Avi")

@@ -1,1 +1,10 @@
 <%# Write your code here! %>
+<h1>Welcome!</h1>
+<%# HTML form that will create an HTTP Post request to /greet; POST request will contain whatever user types into the form <input> field %>
+<form action="/greet" method="POST">
+  <label for="user_name">Name:</label>
+
+  <p><input type="text" name="user_name" id="user_name" /></p>
+
+  <input type="submit" value="Submit"/>
+</form>

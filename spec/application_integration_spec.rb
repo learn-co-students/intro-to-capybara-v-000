@@ -16,6 +16,7 @@ describe "GET '/' - Greeting Form" do
   end
 end
 
+# mimics what the user should see when they visit the greeting form, fill in the name, and click submit
 describe "POST '/greet' - User Greeting" do
   it 'greets the user personally based on their user_name in the form' do
     visit '/'

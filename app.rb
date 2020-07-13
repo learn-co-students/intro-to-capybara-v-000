@@ -1,4 +1,12 @@
 class Application < Sinatra::Base
-  # Write your code here!
+#old route
+  get '/' do
+    erb :index
+  end
 
+
+  #new route
+  post '/greet' do
+    erb :greet
+  end
 end

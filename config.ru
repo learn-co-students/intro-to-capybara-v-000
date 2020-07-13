@@ -1,1 +1,3 @@
-# Write your code here!
+require './environment'
+
+run Application
